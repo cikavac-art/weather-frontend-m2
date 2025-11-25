@@ -1,0 +1,32 @@
+.img-navbar {
+    margin-right: 2px;
+    width: 40px;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.bannerHeader {
+    margin-top: 66px;
+}
+
+.bannerImage {
+    height: 512px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock span {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(44, 192, 255, 0.438);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
