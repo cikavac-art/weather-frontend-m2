@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/img/musemimi-luna.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+
+    <title>Desarrollo Portafolio M2 | Home</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar-ejemplo" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/musemimi-avatar.png" alt="Logo"
+                        class="d-inline-block align-text-center rounded img-navbar">Cikavac</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pronóstico Semanal</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Sitios de Interés
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-dark text-center p-4 bannerHeader">
+            <div class="container-fluid bg-dark text center bannerImage"
+                style="background-image: url('assets/img/bannerImage.jpg');">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="mask p-3" style="background-color: rgba(0, 0, 0, 0.6);">
+                        <div class="text-white">
+                            <h1 class="mb-3">Desarrollo Portafolio</h1>
+                            <h4 class="mb-3">Lorem, ipsum dolor.</h4>
+                            <div class="clock d-flex m-0 justify-content-center">
+                                <div>
+                                    <span id="hour">00</span>
+                                </div>
+                                <div>
+                                    <span id="minutes">00</span>
+                                </div>
+                                <div>
+                                    <span id="seconds">00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+   <section>
+        <div class="page-content page-container" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-lg-8 grid-margin stretch-card">
+                        <!--weather card-->
+                        <div class="card card-weather">
+                            <div class="card-body">
+                                <div class="weather-date-location">
+                                    <h3>Martes</h3>
+                                    <p class="text-gray">
+                                        <span class="weather-date">25 Noviembre, 2025</span>
+                                        <span class="weather-location">La Florida, Santiago</span>
+                                    </p>
+                                </div>
+                                <div class="weather-data d-flex">
+                                    <div class="mr-auto">
+                                        <h4 class="display-3">32
+                                            <span class="symbol">&deg;</span>C
+                                        </h4>
+                                        <p>
+                                            Soleado
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="d-flex weakly-weather">
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-0">
+                                            Dom
+                                        </p>
+                                        <i class="mdi mdi-weather-cloudy"></i>
+                                        <p class="mb-0">
+                                            30&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Lun
+                                        </p>
+                                        <i class="mdi mdi-weather-hail"></i>
+                                        <p class="mb-0">
+                                            31&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Mar
+                                        </p>
+                                        <i class="mdi mdi-weather-partlycloudy"></i>
+                                        <p class="mb-0">
+                                            28&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Mie
+                                        </p>
+                                        <i class="mdi mdi-weather-pouring"></i>
+                                        <p class="mb-0">
+                                            30&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Jue
+                                        </p>
+                                        <i class="mdi mdi-weather-pouring"></i>
+                                        <p class="mb-0">
+                                            29&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Vie
+                                        </p>
+                                        <i class="mdi mdi-weather-snowy-rainy"></i>
+                                        <p class="mb-0">
+                                            31&deg;
+                                        </p>
+                                    </div>
+                                    <div class="weakly-weather-item">
+                                        <p class="mb-1">
+                                            Sab
+                                        </p>
+                                        <i class="mdi mdi-weather-snowy"></i>
+                                        <p class="mb-0">
+                                            32&deg;
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--weather card ends-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   </section>
+
+    <footer class="container-fluid bg-dark text-white p-5 mt-2">
+        <div class="row">
+
+        </div>
+        <hr class="text-white">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="assets/img/musemimi-avatar.png" alt="Logo Empresa"
+                    class="d-inline-block align-text-center rounded img-logo">
+                <p class="d-inline cc">&copy;2025 Bootcamp FrontEnd JavaScript</p>
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+                <h4>Mapa del Sitio</h4>
+                <hr class="text-white">
+                <nav class="nav flex-column">
+                    <a class="nav-link text-white" href="index.html">Inicio</a>
+                    <a class="nav-link text-white" href="#">Caracteristicas</a>
+                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-white" href="#">Productos</a>
+                </nav>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-transparent border border-0">
+                    <div class="card-header border border-0">
+                        <h4 class="card-title text-white">Suscríbete a nuestro Newsletter!</h4>
+                    </div>
+                    <div class="card-body border border-0">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Ingresa tu correo">
+                            <button class="btn btn-outline-light" type="button" id="button-addon2">Enviar</button>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center border border-0">
+                        <nav class="nav">
+                            <a class="nav-link text-white" href="https://instagram.com"><i
+                                    class="bi bi-instagram fs-1 text-white"></i>
+                            </a>
+                            <a class="nav-link text-white" href="https://tiktok.com"><i
+                                    class="bi bi-tiktok fs-1 text-white"></i>
+                            </a>
+                            <a class="nav-link text-white" href="https://linkedin.com"><i
+                                    class="bi bi-linkedin fs-1 text-white"></i>
+                            </a>
+                            <a class="nav-link text-white" href="https://facebook.com"><i
+                                    class="bi bi-facebook fs-1 text-white"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white">
+        <div class="row text-center">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae amet repellat vero corrupti itaque
+                impedit ipsa maxime consectetur ab quidem!</p>
+        </div>
+
+    </footer>
+
+
+    <!--la libreria de jquery siempre debe ir arriba de otras librerias como popper, bootstrap, sweetalert, fontawesome, etc
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
