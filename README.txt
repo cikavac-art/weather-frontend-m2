@@ -4,4 +4,6 @@ Una pagina simple con reloj actualizado automaticamente, con cards en un carruse
 
 Prototipo sin API
 
+Enlace: https://github.com/cikavac-art/weather-frontend-m2.git
+
 (c) Francisca Castañeda
